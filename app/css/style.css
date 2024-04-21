@@ -1,25 +1,35 @@
 /* reset */
 /* main variables */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-size: 62.5%;
+  height: 100%;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
 body {
   margin: 0px;
   padding: 0px;
-  font-family: "encodesansexpanded-regular", sans-serif;
-  background-color: #fff;
+  font-size: 1.6rem;
   height: 100%;
-  line-height: 1;
+  font-family: "avenir-next-regular", sans-serif;
+  background-color: #F8F8F8;
+  color: #414B54;
+  line-height: 1.4;
+  height: 100%;
   position: relative;
-  font-size: 18px !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-html {
-  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 /*MAIN*/
-html,
-body,
 div,
 span,
 applet,
@@ -150,7 +160,7 @@ html {
 input:not(input[type=checkbox]):not(input[type=radio]),
 textarea {
   color: #333;
-  font-family: "encodesansexpanded-regular", sans-serif;
+  font-family: "avenir-next-regular", sans-serif;
   outline: none;
   border-radius: 0;
   -moz-border-radius: 0;
@@ -175,7 +185,7 @@ form {
 }
 
 a {
-  color: #000;
+  color: #414B54;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
@@ -258,48 +268,20 @@ body.error404 .error-404.not-found {
 body.error404 .error-404.not-found h1 {
   font-weight: 700;
   font-size: 57px;
-  font-family: "encodesansexpanded-regular", sans-serif;
+  font-family: "avenir-next-regular", sans-serif;
   font-padding-top: 0;
   font-padding-top: 0;
 }
 body.error404 .error-404.not-found h2 {
   font-weight: 700;
   font-size: 47px;
-  font-family: "encodesansexpanded-regular", sans-serif;
+  font-family: "avenir-next-regular", sans-serif;
 }
 
 @font-face {
-  font-family: "encodesansexpanded-regular";
-  src: url("../fonts/encodesansexpanded/regular/encodesansexpanded-regular.eot");
-  src: url("../fonts/encodesansexpanded/regular/encodesansexpanded-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/encodesansexpanded/regular/encodesansexpanded-regular.woff2") format("woff2"), url("../fonts/encodesansexpanded/regular/encodesansexpanded-regular.woff") format("woff"), url("../fonts/encodesansexpanded/regular/encodesansexpanded-regular.ttf") format("truetype"), url("../fonts/encodesansexpanded/regular/encodesansexpanded-regular.svg#encodesansexpanded-regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "encodesansexpanded-bold";
-  src: url("../fonts/encodesansexpanded/bold/encodesansexpanded-bold.eot");
-  src: url("../fonts/encodesansexpanded/bold/encodesansexpanded-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/encodesansexpanded/bold/encodesansexpanded-bold.woff2") format("woff2"), url("../fonts/encodesansexpanded/bold/encodesansexpanded-bold.woff") format("woff"), url("../fonts/encodesansexpanded/bold/encodesansexpanded-bold.ttf") format("truetype"), url("../fonts/encodesansexpanded/bold/encodesansexpanded-bold.svg#encodesansexpanded-bold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "encodesansexpanded-extrabold";
-  src: url("../fonts/encodesansexpanded/extrabold/encodesansexpanded-extrabold.eot");
-  src: url("../fonts/encodesansexpanded/extrabold/encodesansexpanded-extrabold.eot?#iefix") format("embedded-opentype"), url("../fonts/encodesansexpanded/extrabold/encodesansexpanded-extrabold.woff2") format("woff2"), url("../fonts/encodesansexpanded/extrabold/encodesansexpanded-extrabold.woff") format("woff"), url("../fonts/encodesansexpanded/extrabold/encodesansexpanded-extrabold.ttf") format("truetype"), url("../fonts/encodesansexpanded/extrabold/encodesansexpanded-extrabold.svg#encodesansexpanded-extrabold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "encodesansexpanded-medium";
-  src: url("../fonts/encodesansexpanded/medium/encodesansexpanded-medium.eot");
-  src: url("../fonts/encodesansexpanded/medium/encodesansexpanded-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/encodesansexpanded/medium/encodesansexpanded-medium.woff2") format("woff2"), url("../fonts/encodesansexpanded/medium/encodesansexpanded-medium.woff") format("woff"), url("../fonts/encodesansexpanded/medium/encodesansexpanded-medium.ttf") format("truetype"), url("../fonts/encodesansexpanded/medium/encodesansexpanded-medium.svg#encodesansexpanded-medium") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "encodesansexpanded-semibold";
-  src: url("../fonts/encodesansexpanded/semibold/encodesansexpanded-semibold.eot");
-  src: url("../fonts/encodesansexpanded/semibold/encodesansexpanded-semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/encodesansexpanded/semibold/encodesansexpanded-semibold.woff2") format("woff2"), url("../fonts/encodesansexpanded/semibold/encodesansexpanded-semibold.woff") format("woff"), url("../fonts/encodesansexpanded/semibold/encodesansexpanded-semibold.ttf") format("truetype"), url("../fonts/encodesansexpanded/semibold/encodesansexpanded-semibold.svg#encodesansexpanded-semibold") format("svg");
+  font-family: "avenir-next-regular";
+  src: url("../fonts/avenir-next/regular/avenir-next-regular.eot");
+  src: url("../fonts/avenir-next/regular/avenir-next-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir-next/regular/avenir-next-regular.woff2") format("woff2"), url("../fonts/avenir-next/regular/avenir-next-regular.woff") format("woff"), url("../fonts/avenir-next/regular/avenir-next-regular.ttf") format("truetype"), url("../fonts/avenir-next/regular/avenir-next-regular.svg#avenir-next-regular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1217,6 +1199,21 @@ img.mfp-img {
   display: none;
 }
 
+.header {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+.footer {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
 html,
 body {
   height: 100%;
@@ -1235,33 +1232,33 @@ h6 {
 
 p {
   font-size: 18px;
-  line-height: 1.55;
-  color: #000;
-  font-family: "encodesansexpanded-regular", sans-serif;
+  line-height: 1.4;
+  color: #414B54;
+  font-family: "avenir-next-regular", sans-serif;
   font-weight: 400;
 }
 
 h1 {
   font-size: 27px;
   line-height: 1;
-  color: #000;
-  font-family: "encodesansexpanded-regular", sans-serif;
+  color: #414B54;
+  font-family: "avenir-next-regular", sans-serif;
   font-weight: 400;
 }
 
 h2 {
   font-size: 20px;
   line-height: 1.1;
-  color: #000;
-  font-family: "encodesansexpanded-regular", sans-serif;
+  color: #414B54;
+  font-family: "avenir-next-regular", sans-serif;
   font-weight: 400;
 }
 
 h3 {
   font-size: 28px;
   line-height: 32px;
-  color: #000;
-  font-family: "encodesansexpanded-regular", sans-serif;
+  color: #414B54;
+  font-family: "avenir-next-regular", sans-serif;
   font-weight: 400;
 }
 
@@ -1275,5 +1272,36 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  min-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+
+.main-wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content {
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 /*# sourceMappingURL=style.css.map */
